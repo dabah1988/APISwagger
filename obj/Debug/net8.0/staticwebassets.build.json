@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "H0gX7M3MT8bsIAf1NRGEDfK2tpUyimz6y0gVAtRhlUU=",
+  "Source": "CityManager.WebAPI",
+  "BasePath": "_content/CityManager.WebAPI",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

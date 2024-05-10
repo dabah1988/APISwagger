@@ -1,0 +1,54 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>CityManager.WebAPI</name>
+    </assembly>
+    <members>
+        <member name="T:CityManager.WebAPI.Controllers.CustomController">
+            <summary>
+            pour le point d'entrée des versions
+            </summary>
+        </member>
+        <member name="T:CityManager.WebAPI.Controllers.v1.CitiesController">
+            <summary>
+            La version 1 de l'API
+            </summary>
+        </member>
+        <member name="M:CityManager.WebAPI.Controllers.v1.CitiesController.GetCities">
+            <summary>
+            Retourne toutes les villes 
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:CityManager.WebAPI.Controllers.v1.CitiesController.GetCity(System.Guid)">
+            <summary>
+            Recupère une ville à partir de sn ID 
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="T:CityManager.WebAPI.Controllers.v2.CitiesController">
+            <summary>
+            La version 2 de l'API
+            </summary>
+        </member>
+        <member name="M:CityManager.WebAPI.Controllers.v2.CitiesController.GetCities">
+            <summary>
+            Retourne toutes les villes 
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:CityManager.WebAPI.Migrations.initial">
+            <inheritdoc />
+        </member>
+        <member name="M:CityManager.WebAPI.Migrations.initial.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:CityManager.WebAPI.Migrations.initial.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:CityManager.WebAPI.Migrations.initial.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+    </members>
+</doc>
